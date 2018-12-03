@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player {
+  background-color: purple;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  position: absolute;
+  transition: 500ms;
 }
 
 .App-logo {
